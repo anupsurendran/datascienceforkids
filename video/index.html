@@ -1,0 +1,24 @@
+<!-- !DOCTYPE HTML -->
+<head>
+
+
+<meta charset="utf-8">
+<title>Video in browser </title>
+ 
+
+</head>
+
+<body>
+
+        <video autoplay="true" id="videoElement">
+        
+        </video>
+
+<script src="stream.js" type="text/javascript">  </script>
+<script>
+
+    var video = document.querySelector("#videoElement");
+    stream(video);
+  
+</script>
+</body>
